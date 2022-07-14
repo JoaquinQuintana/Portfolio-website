@@ -9,28 +9,29 @@
 
 </div>
 
-<div class="div1">
+<div id="about" class="div1">
     <h2>About</h2>
-    <img class ="img2" src="{{url_for('static', filename='bay.png')}}" />
+    <img class ="img2" src="{{url_for('static', filename='bay.jpg')}}" />
     <div class = "textdiv1">
         <p>This is some text about me</p>
     </div>
 </div>
 
-<div class="div2">
+<div id = "skill" class="div2">
     <h2>Skills</h2>
-    <p>TProjects text to be</p>
+    <p>skills text to be</p>
+    <img class ="img3" src="{{url_for('static', filename='StaphCellsBinaryMask.png')}}" />
 </div>
 
-<div class="div3">
+<div id = "project" class="div3">
     <h2>Projects</h2>
     <p>Project stuff</p>
 </div>
 
-<div class="div4">
-    <img class ="img3" src="{{url_for('static', filename='StaphCellsBinaryMask.png')}}" />
+<div id = "publication" class="div4">
     <h2>Publications</h2>
     <p>Project stuff</p>
+    <img class ="img4" src="{{url_for('static', filename='kokohead.png')}}" />
 </div>
 
 {% endblock %}
