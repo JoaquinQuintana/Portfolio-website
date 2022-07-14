@@ -1,9 +1,5 @@
 *{
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-}
-
-
-.intro{
     color: black;
     background: #f8f9fa;   
 }
@@ -34,6 +30,20 @@ div.div1{
     text-align: center;
 }
 
+.img2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 95%;
+    opacity: 1.0;
+    border-radius: 25px;
+    
+}
+
+.img2:hover {
+    opacity: 0.2;
+  }
+
 div.div3{
     background: #f8f9fa;
 } 
@@ -50,24 +60,16 @@ div.div3{
     opacity: 1.0;
   }
 
-.img2 {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 90%;
-    opacity: 1.0;
-    border-radius: 25px;
-}
-
-.img2:hover {
-    opacity: 0.2;
-  }
-
 .textdiv1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.text_about{
+    background: transparent;
 }
 
 .img3 {
