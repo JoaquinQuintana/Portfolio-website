@@ -1,10 +1,16 @@
 {% extends "base.html" %}
 {% block title %}Home Page{% endblock %}
 {% block content %}
-<div id = "skill" class="div2">
+<div id = "skill" class="divCollection">
     <h2>Skills</h2>
-    <p>skills text to be</p>
-    <img class ="img3" src="{{url_for('static', filename='StaphCellsBinaryMask.png')}}" />
+    <img class ="imgCollection" src="{{url_for('static', filename='StaphCellsBinaryMask.png')}}" />
+    
+    <div class = "textdiv_Collection">
+        <h3 class = header_Collection>A few of my skills</h3>
+        <p class = "text_Collection">
+            My background 
+        </p>
+    </div>
 </div>
 
 {% endblock %}
