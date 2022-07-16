@@ -1,20 +1,55 @@
 *{
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    color: black;
-    background: #f8f9fa;   
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+}
+
+body > *:not(#spin) {
+  filter: blur(9px);
+}
+
+#spin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  background-size: 100%;
+}
+
+header{
+  width: 100%;
+}
+
+.baseBody{
+  background-image: url(/static/forest-ge9f63ea06_1920.jpg);
 }
 
 .navbar {
     position: sticky;
     top: 0;
     z-index: 100;
+    background-image: linear-gradient(to right, #24263d,#5145a5, #726670) !important;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+    color:#baa5db;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#fcff46;
+  font-size: 30px !important;
+
+}
+
+.spanName{
+  font-weight: bolder;
 }
 
 .name{
-    margin: auto;
+    margin: left;
     width: 50%;
     padding: 10px;
     font-size:5vw;
+    color:white
 }
 
 .info1{
@@ -22,6 +57,7 @@
     width: 50%;
     padding: 10px;
     font-size:3vw;
+    color:white
 }
 
 .img1 {
@@ -43,11 +79,22 @@
     opacity: 1.0;
   }
 
+.fa{
+  color:#baa5db;
+}
+
+.fa:hover{
+  color:#fcff46;
+  font-size: 30px !important;
+}
+
 div.divCollection{
     padding-top: 3%;
     background: #f8f9fa;
     position: relative;
     text-align: center;
+    background-color: transparent;
+    color:white
 }
 
 .imgCollection {
@@ -55,7 +102,7 @@ div.divCollection{
     margin-right: auto;
     display: block;
     max-width: 95%;
-    opacity: 0.3;
+    opacity: 1.0;
     border-radius: 25px;
 }
 
@@ -75,17 +122,17 @@ div.divCollection{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: transparent;
+
 }
 
 .header_Collection{
     padding-top: 10%;
-    background: transparent;
+
     font-size:2vw;
 }
 
 .text_Collection{
-    background: transparent;
+
     font-size:1vw;
 }
 
@@ -237,3 +284,5 @@ ol.gradient-list > li:nth-child(10n+10):before {
 ol.gradient-list > li + li {
   margin-top: 2rem;
 }
+
+/***Spinner***/
