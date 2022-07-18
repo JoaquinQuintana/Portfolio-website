@@ -20,8 +20,13 @@ header{
 }
 
 .baseBody{
-  background-image: url(/static/forest-ge9f63ea06_1920.jpg);
+  background: url(/static/forest-ge9f63ea06_1920.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 .navbar {
     position: sticky;
@@ -57,7 +62,8 @@ header{
     width: 50%;
     padding: 10px;
     font-size:3vw;
-    color:white
+    color:rgba(255,255,255,0.7)
+
 }
 
 .img1 {
@@ -186,7 +192,6 @@ DEALINGS IN THE SOFTWARE.
 /*** EXTEND ***/
 /* box-shadow */
 ol.gradient-list > li::before, ol.gradient-list > li {
-  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
 
 /*** STYLE ***/

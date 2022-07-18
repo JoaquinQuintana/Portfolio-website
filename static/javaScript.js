@@ -1,4 +1,4 @@
-setTimeout(() => {
+  setTimeout(() => {
     const box = document.getElementById('spin');
     // removes element from DOM
     box.style.display = 'none';// hides element (still takes up space on page)
@@ -18,6 +18,7 @@ setTimeout(() => {
     return color;
   }
 
+  /* randomly assign color to letters in span */
   $("span.name").mouseover(function() {
     $(this).css("color",getRandomColor())
     $(this).css("font-size","10vw")
@@ -29,4 +30,6 @@ setTimeout(() => {
     $(this).css("font-size","5vw")
   }); */
 
-
+/* fade in objects */
+$(".intro").hide().fadeIn(6000)
+$(".gradient-list").hide().fadeIn(3000 )
