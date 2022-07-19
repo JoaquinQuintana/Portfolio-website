@@ -31,5 +31,5 @@
   }); */
 
 /* fade in objects */
-$(".intro").hide().fadeIn(6000)
+$(".intro").hide(5000).fadeIn(1000)
 $(".gradient-list").hide().fadeIn(3000 )
