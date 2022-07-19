@@ -18,9 +18,6 @@ def skills():
 def publications():
     return render_template("publications.html")
 
-@app.route("/spinner")
-def spinner():
-    return render_template("spinner.html")
 
 
 if __name__ == "__main__":

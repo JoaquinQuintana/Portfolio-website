@@ -94,13 +94,28 @@ header{
   font-size: 30px !important;
 }
 
+.aboutH{
+  font-size:  4vw;
+  color:white
+}
+
+.hola{
+ font-size: 4vw;
+}
+
+.listSkill{
+  text-align: left;  
+}
+
 div.divCollection{
-    padding-top: 3%;
+    padding: 5%;
+    padding-right: 40%;
     background: #f8f9fa;
     position: relative;
     text-align: center;
     background-color: transparent;
-    color:white
+    color:white;
+
 }
 
 .imgCollection {
@@ -133,13 +148,12 @@ div.divCollection{
 
 .header_Collection{
     padding-top: 10%;
-
     font-size:2vw;
 }
 
 .text_Collection{
-
-    font-size:1vw;
+    font-size:1vmax;
+    text-align: left;
 }
 
 .img4{

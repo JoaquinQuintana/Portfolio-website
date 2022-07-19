@@ -19,7 +19,7 @@
   }
 
   /* randomly assign color to letters in span */
-  $("span.name").mouseover(function() {
+  $("span.name" ).mouseover(function() {
     $(this).css("color",getRandomColor())
     $(this).css("font-size","10vw")
   });
@@ -33,3 +33,4 @@
 /* fade in objects */
 $(".intro").hide(5000).fadeIn(1000)
 $(".gradient-list").hide().fadeIn(3000 )
+
